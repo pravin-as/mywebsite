@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('https://www.hdwallpapers.in/download/sunset_scenery-1920x1080.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+    
+    .myDiv {
+  border: 5px outset purple;
+  background-color: #ffffff;
+  opacity: .2;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+   <div class="myDiv">
+ 
+       <p><a href = "{% url 'page2' %}"  ><font size="4" face="arial" color="black">MY HOBBIES</font></a>
+            &nbsp;&nbsp; <a href="{% url 'page3' %}" ><font size="4" face="arial" color="black">MY PLANS</font></a>&nbsp;
+      <a href = "{% url 'page4' %}"  ><font size="4" face="arial" color="black">MY page</font></a> </p>
+       
+</div>
+<h2><font size = "10" face = "arial" color = "#FFF8DC">EXPLORING BEYOND</font></h2>
+     <h4><font color="white">My introduction</font></h4>
+    
+
+<p><font size = "2" face = "arial" color = "#C6DEFF">
+Hello!This is Ananya, a CSE sophomore at IIT Bhilai.I am a Computer Science major at IIT Bhilai. I am familiar with python, django and HTML. I am equipped with a perspective of looking at problems, whether small or significant, from an angle that maximizes results to achieve high productivity levels through long and short-term goals. I also enjoy developing patterns to see complexity simply and evaluate accurately the potential obstacles. She has a passion for learning and growing my skill set, and is open to new experiences and opportunities.</font></p>
+
+       <footer><center>
+  <p><br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br> <br><font size = "2" face = "arial" color = "#FFF8DC"> TIME of Download : {{ current_time }} -- Ananya</font></p></center>
+</footer>
+         
+ 
+
+</body>
+</html>
